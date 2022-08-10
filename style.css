@@ -1,0 +1,36 @@
+body{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #242424;
+    color: rgba(255, 255, 255, .7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.keys {
+    width: 120px;
+    height: 120px;
+    background-image: url(//www.google.com/logos/fnbx/snake_arcade/keys.svg);
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 16px;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+.image{
+    width: 110px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 20px;
+}
